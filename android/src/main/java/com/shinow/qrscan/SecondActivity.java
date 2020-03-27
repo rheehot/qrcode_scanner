@@ -49,7 +49,7 @@ public class SecondActivity extends AppCompatActivity {
         //sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         //lightSensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
         //sensorEventListener = new LightSensorEventListener(lightLayout);
-
+        lightLayout.setVisibility(View.INVISIBLE); 
         initView();
     }
 
